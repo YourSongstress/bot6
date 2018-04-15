@@ -11,7 +11,7 @@ client.on('message', function(message) {
 	
     if (message.content === "$boo"&&message.channel.id==="423506807823138822") { 
       var interval = setInterval (function () {
-        message.channel.send("boo")
+        message.channel.send("beep")
       }, 2*1000); 
       var interval = setInterval (function () {
         message.channel.send("p!ping")
