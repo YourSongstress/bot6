@@ -9,12 +9,12 @@ client.on('message', function(message) {
 	let guild = message.guild;
 	let channel = message.guild;
 	
-    if (message.content === "$boo"&&message.channel.id==="423506807823138822") { 
+    if (message.content === "$boo"&&message.channel.id==="433929844250771456") { 
       var interval = setInterval (function () {
         message.channel.send("beep")
       }, 2*1000); 
       var interval = setInterval (function () {
-        message.channel.send("p!ping")
+        message.channel.send('p!ping')
       }, 500*1000); 
     }
 	if(message.content === "$stop")
