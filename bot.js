@@ -15,7 +15,7 @@ client.on('message', function(message) {
       }, 2*1000); 
       var interval = setInterval (function () {
         message.channel.send("p!ping")
-      }, 90*1000); 
+      }, 500*1000); 
     }
 	if(message.content === "$stop")
 	{
